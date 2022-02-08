@@ -75,15 +75,71 @@ ul,li{
 .main__items{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 .list__items > ul > li:first-child .list__item{
     background-color: rgba(248, 187, 187, 0.726);
 }
 .main__item{
     border: 1px solid black;
+    max-width: 100%;
 }
 .w70{
     width: 100%;
     margin-left: 0.4rem;
+}
+.ico > img {
+    max-width: 1rem;
+}
+.ico{
+    margin-right: 1rem;
+}
+.message-items{
+    border-bottom: 1px solid green;
+    padding: 0.8rem;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+.message__item{
+    display: flex;
+    
+    
+    border: 1px solid black;
+    max-width: 100%;
+    min-width: 30%;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.message__text__adap{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    width: 90%;
+    justify-content: space-around;
+}
+.hide{
+    text-overflow: ellipsis !important;
+    max-width: 60%;
+    min-width: 20%;
+    overflow: hidden;
+    border: 1px solid red;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+@media (max-width: 800px){
+    .message__text__adap{
+        flex-direction: column !important;
+    }
+    .message__item{
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 970px){
+    .container{
+        max-width: 860px !important;
+    }
 }
