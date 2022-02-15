@@ -1,0 +1,6 @@
+.textarea{
+    width: 30rem;
+    height: 10rem;
+    box-shadow: 1px 1px 5px rgb(199, 199, 199);
+    border-radius: 5px;
+}

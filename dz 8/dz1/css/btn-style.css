@@ -1,0 +1,43 @@
+.btn{
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1rem 1.7rem;
+    background-color: green;
+    border-radius: 10px ;
+    cursor:pointer ;
+}
+
+.hover:hover{
+    background-color: darkgreen;
+}
+.danger{
+    background-color: rgb(255, 125, 125);
+}
+.danger-hover:hover{
+    background-color: brown;
+}
+.disable{
+    background-color: rgb(114, 114, 113);
+    cursor: not-allowed;
+}
+.plus{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50% ;
+    background-color: green;
+    flex-shrink: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.minus{
+        flex-shrink: 0;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50% ;
+        background-color: red;
+        color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+}

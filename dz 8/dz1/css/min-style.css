@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-size: 16px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__items{
+    background-color: ghostwhite;
+    height: 50rem;
+    width: 60rem;
+    padding: 2rem;
+    
+}
+.form__item > label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+}
+.form__item{
+    margin-bottom: 3rem;
+}
+.items{
+    display: flex;
+    
+    align-items: center;
+}
+.items > input{
+    margin-right: 2rem;
+}

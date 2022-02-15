@@ -1,0 +1,41 @@
+.slide{
+    width: 80px;
+    height: 30px;
+    background: white;
+    margin: 20px auto;
+    position: relative;
+    border: 1px solid #008000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.slide >label {
+    display: block;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    border-radius: 15px;
+    left: 6px;
+    z-index: 1;
+    background: green;
+}
+input[type=checkbox] {
+    visibility: hidden;
+    
+}
+.unchecked{
+    border: 1px solid red ;
+}
+.unckecked > label{
+    background-color: red !important;
+}
+.unchecked__label{
+    background-color: red !important;
+    position: absolute;
+    left: 46px ! important;
+}
+.text1{
+    margin-left: 5rem;
+}
