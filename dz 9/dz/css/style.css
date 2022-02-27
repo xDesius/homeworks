@@ -1,0 +1,28 @@
+body,html{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+.img{
+    max-width: 100%;
+}
+.rounded-custom{
+    border-radius: 0 100% 100% 0;
+}
+.rounded-custom-left{
+    border-radius: 100% 0 0 100%;
+}
+.small{
+    width: 2rem;
+    height: 2rem;
+}
+.circle{
+    width: 1rem !important ;
+    height: 1rem !important;
+    padding: 0 !important;
+}
+.inline-block{
+    display: inline !important;
+}
